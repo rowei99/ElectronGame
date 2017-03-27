@@ -1,0 +1,7 @@
+body{
+    background-color: #86cfe8;
+}input[type=button]{
+    color: mintcream;
+    background-color: black; 
+    width: 10%;
+}
