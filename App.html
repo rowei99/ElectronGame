@@ -4,13 +4,16 @@
 </head>
 <body>
 <script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
-<script type="text/javascript" src="jquery-3.1.1.js"></script>
+<script type="text/javascript" src = "./jquery-3.1.1.js"></script><!--jquery, duh-->
 <script>if (window.module) module = window.module;</script>
 <form>
-    <input type="button" value="GO">
+    <input type="button" value="GO" id="go">
     <input type="button" value="<">
     <input type="button" value=">">
 
 </form>
+<div id="output">
+</div>
+<script src="renderer.js"></script>
 </body>
 </html>
