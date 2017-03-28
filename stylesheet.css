@@ -4,4 +4,10 @@ body{
     color: mintcream;
     background-color: black; 
     width: 10%;
+}#output{
+    top: 10%;
+    color: seagreen;
+    width: 20%;
+    background-color: red;
+
 }
