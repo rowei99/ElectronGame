@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 //const electron = require('electron')
 // $(This) file is requicreature3 by the index.html file and will
 // be executed in the renderer process for that window.
@@ -53,4 +54,13 @@ $(".card").click(function(){
     $("#played" + placenum).removeClass("empty")
     $(this).removeClass(cardclass)
     $(this).addClass("empty")
+=======
+const electron = require('electron')
+// This file is required by the index.html file and will
+// be executed in the renderer process for that window.
+// All of the Node.js APIs are available in this process.
+$("#go").click(function(){
+    $("#output").html("TESTING")
+    console.log('working')
+>>>>>>> 51dab681bcfe9ed3f37603b63da5516dd3750438
 });

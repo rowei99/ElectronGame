@@ -1,6 +1,7 @@
 body{
     background-color: peachpuff;
 }input[type=button]{
+<<<<<<< HEAD
     color: black;
     background-color: lightsteelblue; 
     width: 10vw;
@@ -79,4 +80,15 @@ body{
     left: 56vw;
 }#played5{
     left: 67vw;
+=======
+    color: mintcream;
+    background-color: black; 
+    width: 10%;
+}#output{
+    top: 10%;
+    color: seagreen;
+    width: 20%;
+    background-color: red;
+
+>>>>>>> 51dab681bcfe9ed3f37603b63da5516dd3750438
 }

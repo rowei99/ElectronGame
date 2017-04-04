@@ -35,3 +35,8 @@ jspm_packages
 
 # Optional REPL history
 .node_repl_history
+<<<<<<< HEAD
+=======
+
+*jquery-3.1.1.js
+>>>>>>> 51dab681bcfe9ed3f37603b63da5516dd3750438
