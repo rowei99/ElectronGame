@@ -1,13 +1,82 @@
 body{
-    background-color: #86cfe8;
+    background-color: peachpuff;
 }input[type=button]{
-    color: mintcream;
-    background-color: black; 
-    width: 10%;
-}#output{
-    top: 10%;
-    color: seagreen;
-    width: 20%;
-    background-color: red;
-
+    color: black;
+    background-color: lightsteelblue; 
+    width: 10vw;
+}.card{
+    top: 1vh;
+    width: 10vw;
+    height: 15vw;
+    color: olivedrab;
+    border-radius: 2px;
+    border-color: red;
+    position: absolute;
+    background-size: 10vw; 
+}.card:hover {
+    position:absolute;
+    width:20vw;
+    height: 30vw;
+    background-size: 20vw;
+    z-index:999;
+}.creature1{
+     background-image: url(cards/creature1.png);  
+}.creature2{
+    background-image: url(cards/creature2.png);
+}.creature3{
+    background-image: url(cards/creature3.png);
+}.empty, .empty:hover{
+    z-index: -999;
+    width: 10vw;
+    height: 15vw;
+}
+#card1{
+    left: 23vw;
+}#card2{
+    left: 34vw;
+}#card3{
+    left: 45vw;
+}#card4{
+    left: 56vw;
+}#card5{
+    left: 67vw;
+}#playarea{
+    width: 80vw;
+    height: 50vh;
+    background-color: grey;
+    position: absolute;
+    z-index: -99999;
+    left: 10vw;
+    top: 25vh;
+}.deck{
+    top: 1vh;
+    background-image: url(cards/back.png);
+    width: 10vw;
+    height: 15vw;
+    color: olivedrab;
+    border-radius: 2px;
+    border-color: red;
+    position: absolute;
+    background-size: 10vw; 
+}#deck{
+    left: 78vw;
+}.played{
+    top: 25vh;
+    width: 10vw;
+    height: 15vw;
+    color: olivedrab;
+    border-radius: 2px;
+    border-color: red;
+    position: absolute;
+    background-size: 10vw; 
+}#played1{
+    left: 23vw;
+}#played2{
+    left: 34vw;
+}#played3{
+    left: 45vw;
+}#played4{
+    left: 56vw;
+}#played5{
+    left: 67vw;
 }
