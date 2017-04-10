@@ -79,12 +79,35 @@ body{
     left: 56vw;
 }#played5{
     left: 67vw;
-    color: mintcream;
-    background-color: black; 
-    width: 10%;
-}#output{
-    top: 10%;
-    color: seagreen;
-    width: 20%;
-    background-color: red;
+}.mana{
+    border-radius: 2vw;
+    width: 4vh;
+    height: 4vh;
+    background-color: deepskyblue;
+    position: absolute;
+    left: 2vw;
+    /*border-width: 2vw;*/
+}.mana:hover{
+    background-color: darkblue;
+}
+#mana1{
+    top: 20.5vh;
+}#mana2{
+    top: 26.5vh;
+}#mana3{
+    top: 32.5vh;
+}#mana4{
+    top: 38.5vh;
+}#mana5{
+    top: 44.5vh;
+}#mana6{
+    top: 50.5vh;
+}#mana7{
+    top: 56.5vh;
+}#mana8{
+    top: 62.5vh;
+}#mana9{
+    top: 68.5vh;
+}#mana10{
+    top: 74.5vh;
 }
