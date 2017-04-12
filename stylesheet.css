@@ -87,27 +87,27 @@ body{
     position: absolute;
     left: 2vw;
     /*border-width: 2vw;*/
-}.mana:hover{
+}.manaused{
     background-color: darkblue;
 }
-#mana1{
+#mana0{
     top: 20.5vh;
-}#mana2{
+}#mana1{
     top: 26.5vh;
-}#mana3{
+}#mana2{
     top: 32.5vh;
-}#mana4{
+}#mana3{
     top: 38.5vh;
-}#mana5{
+}#mana4{
     top: 44.5vh;
-}#mana6{
+}#mana5{
     top: 50.5vh;
-}#mana7{
+}#mana6{
     top: 56.5vh;
-}#mana8{
+}#mana7{
     top: 62.5vh;
-}#mana9{
+}#mana8{
     top: 68.5vh;
-}#mana10{
+}#mana9{
     top: 74.5vh;
 }
