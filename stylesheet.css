@@ -25,6 +25,8 @@ body{
     background-image: url(cards/creature2.png);
 }.creature3{
     background-image: url(cards/creature3.png);
+}.creature4{
+    background-image: url(cards/creature4.png);
 }.empty, .empty:hover{
     z-index: -999;
     width: 10vw;

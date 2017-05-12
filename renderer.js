@@ -19,10 +19,11 @@ function card(cost, cssclass){
 var creature1 = new card(2, "creature1");
 var creature2 = new card(1, "creature2");
 var creature3 = new card(3, "creature3");
-var hand = ["empty","empty","empty","empty","empty"]
+var creature4 = new card(10, "creature4")
+var hand = ["empty","empty","empty","empty","empty"]    
 var table = ["empty","empty","empty","empty","empty"]
 var mana = 10;
-var deck = [creature1,creature1,creature1,creature1,creature1, creature2, creature2, creature2, creature2, creature3, creature2, creature3, creature3];
+var deck = [creature1,creature1,creature1,creature1,creature1, creature2, creature2, creature2, creature2, creature3, creature2, creature3, creature3, creature4, creature4];
 var shuffle = [];
 var decklocation = 0;
 var length = deck.length;
